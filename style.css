@@ -1,0 +1,56 @@
+body,
+html { 
+  background: url(PYRAMIDS.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: montserrat;
+}
+
+h1{
+  font-size: 3rem;
+  color: #EFAA26;
+  font-weight: 700;
+}
+
+.buffer {
+  height: 8rem;
+}
+
+
+
+form {
+  font-size: 1.2rem;
+  color: #D600C4;
+  font-weight: 700;
+}
+
+.btn-xl {
+  background-color: #06A2CE;
+  border-radius: 300px;
+  padding: 0.7rem 2.8rem;
+  font-weight: 800;
+  border-color: #06A2CE;
+  margin: 10px 50px;
+  font-size: 1.4rem
+}
+
+.btn-xl:hover {
+  background-color: #CC2068;
+  border-color: #CC2068;
+  border-width: 7px;
+}
+
+nav {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  --mdb-navbar-box-shadow: 0 4px 12px 0 rgba(0,0,0,0.40),0 2px 4px rgba(0,0,0,0.10);
+  --mdb-navbar-padding-top: 0.5625rem;
+  --mdb-navbar-brand-img-margin-right: 0.25rem;
+  box-shadow: var(--mdb-navbar-box-shadow);
+  padding-top: var(--mdb-navbar-padding-top);
+}
+
+
